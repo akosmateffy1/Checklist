@@ -1,0 +1,43 @@
+{
+  "checklists": [
+    {
+      "id": "1",
+      "driveNumber": "12345",
+      "name": "Checklist",
+      "checkOccasion": [
+        {
+          "id": 1,
+          "title": "Vehicle Checks",
+          "code": "VC",
+          "checkItem": [
+            {
+              "title": "Brakes",
+              "code": "BRK",
+              "status": "FAILED",
+              "checkResultRemark": "Ellenőrizve1"
+            },
+            {
+              "title": "Lights",
+              "code": "LGT",
+              "status": "NOT_RELEVANT",
+              "checkResultRemark": "Ellenőrizve2"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "title": "Driver Checks",
+          "code": "DC",
+          "checkItem": [
+            {
+              "title": "License",
+              "code": "LIC",
+              "status": "NOT_RELEVANT",
+              "checkResultRemark": "33"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
